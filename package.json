@@ -1,0 +1,32 @@
+{
+  "name": "book-search-engine",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/helenhosse/Book-Search-Engine.git"
+  },
+  "keywords": [
+    "node",
+    "bootstrap",
+    "npm",
+    "react",
+    "graphQL",
+    "apollo",
+    "heroku",
+    "mongoDB"
+  ],
+  "author": "Helen Hosse",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/helenhosse/Book-Search-Engine/issues"
+  },
+  "homepage": "https://github.com/helenhosse/Book-Search-Engine#readme",
+  "dependencies": {
+    "apollo-server-express": "^2.15.0"
+  }
+}
