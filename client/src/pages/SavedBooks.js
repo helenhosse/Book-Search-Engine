@@ -6,9 +6,11 @@ import {
   CardGroup,
   Card,
   Button,
+  // Carousel,
+  //Accordion,
 } from "react-bootstrap";
 
-import { useQuery, useMutation } from "@apollo/react-hooks";
+import { useQuery, useMutation } from "@apollo/client";
 import { QUERY_ME } from "../utils/queries";
 import { REMOVE_BOOK } from "../utils/mutations";
 import Auth from "../utils/auth";
@@ -47,7 +49,7 @@ const SavedBooks = () => {
 
   return (
     <>
-      <ModalHeader fluid className="text-light bg-dark">
+      <ModalHeader className="text-light bg-dark">
         <Container>
           <h1>Viewing {userData.username}'s saved books!</h1>
         </Container>
